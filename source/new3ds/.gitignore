@@ -7,10 +7,10 @@
 !/kit/
 !/look/
 !/cia/
-!/build.sh
-!/mkcmds.py
-!/gen_typed_gx.py
-!/package_cia.sh
+!/ww_build.sh
+!/ww_mkcmds.py
+!/ww_gen_typed_gx.py
+!/ww_package_cia.sh
 !/package_full.sh
 !/Containerfile
 !/exclude.txt

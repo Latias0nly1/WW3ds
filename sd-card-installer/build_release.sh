@@ -7,7 +7,7 @@ mkdir -p "$OUT"
 ENGINE=$(command -v podman || command -v docker)
 WHAT=${1:-all}
 TP=utilities/texture-converter
-SRCS="$TP/mktexpack.cpp $TP/src/texconv.cpp $TP/src/texfit.cpp $TP/src/texmap.cpp $TP/src/texpack.cpp $TP/src/texture_support.cpp"
+SRCS="$TP/mktexpack.cpp $TP/src/ww_texconv.cpp $TP/src/ww_texfit.cpp $TP/src/ww_texmap.cpp $TP/src/ww_texpack.cpp $TP/src/texture_support.cpp"
 PYI_DATA="--add-data /src/$TP/extract_textures.py:texture-pack --add-data /src/$TP/third_party:texture-pack/third_party"
 WIN_CIA=""
 if [ -n "${CIA:-}" ]; then

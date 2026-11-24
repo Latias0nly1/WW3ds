@@ -14,7 +14,9 @@ def parse(path, start=0):
     lines=Path(path).read_text(errors='replace').splitlines()
     r={'path':str(path),'build':[],'perf':[],'present':[],'frames':[],'memory':[],
        'depth':[],'captures':[],'textures':[],'split':[],'game':[],'warnings':[]}
-    for line in lines:
+    for raw in lines:
+        if not raw.startswith('ww3ds '):continue
+        line=raw[6:]
         if line.startswith('[build]'):r['build'].append(line[8:])
         if line.startswith('[perf]'):r['perf'].append(line[7:])
         m=re.match(r'\[present\] frame (\d+): (\d+) intervals mean '+NUM+r' ms \('+NUM+r' fps\) min '+NUM+r' max '+NUM,line)

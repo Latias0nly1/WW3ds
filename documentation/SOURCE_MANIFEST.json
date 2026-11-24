@@ -87,50 +87,50 @@
       "published_sha256": "7ee1dfa6fecce1b51703286a45854291dc1f4829df05d4b9955957f75c8b5058"
     },
     {
-      "path": "system/new3ds/audio_3ds.cpp",
-      "source_component": "src/audio_3ds.cpp",
+      "path": "system/new3ds/ww_audio_3ds.cpp",
+      "source_component": "src/ww_audio_3ds.cpp",
       "source_sha256": "d7eba3944a6bc2abfc21b179505f0e8da7b18257f0c2e7e7c7824b1ed67b54c6",
       "publication_changes": "none",
       "published_sha256": "d7eba3944a6bc2abfc21b179505f0e8da7b18257f0c2e7e7c7824b1ed67b54c6"
     },
     {
-      "path": "system/new3ds/n3ds.h",
-      "source_component": "src/n3ds.h",
+      "path": "system/new3ds/ww_n3ds.h",
+      "source_component": "src/ww_n3ds.h",
       "source_sha256": "66892b2e45bdca26a70467bffaf479d4ca18c86bec588b93dd8e88415318e00d",
       "publication_changes": "none",
       "published_sha256": "66892b2e45bdca26a70467bffaf479d4ca18c86bec588b93dd8e88415318e00d"
     },
     {
-      "path": "system/new3ds/qol_config_3ds.h",
-      "source_component": "src/qol_config_3ds.h",
+      "path": "system/new3ds/ww_qol_config_3ds.h",
+      "source_component": "src/ww_qol_config_3ds.h",
       "source_sha256": "dc57e165fe069bf072f84a390195c43e2fd0c3530f2f331c3530813429bc22f9",
       "publication_changes": "none",
       "published_sha256": "dc57e165fe069bf072f84a390195c43e2fd0c3530f2f331c3530813429bc22f9"
     },
     {
-      "path": "system/new3ds/ui_lifecycle_3ds.h",
-      "source_component": "src/ui_lifecycle_3ds.h",
+      "path": "system/new3ds/ww_ui_lifecycle_3ds.h",
+      "source_component": "src/ww_ui_lifecycle_3ds.h",
       "source_sha256": "b49e300c8db242e3fc57bf834b1d44cb680fde776c5cd595240beabe2f6799e1",
       "publication_changes": "none",
       "published_sha256": "b49e300c8db242e3fc57bf834b1d44cb680fde776c5cd595240beabe2f6799e1"
     },
     {
-      "path": "system/new3ds/ui_shortcuts_3ds.h",
-      "source_component": "src/ui_shortcuts_3ds.h",
+      "path": "system/new3ds/ww_ui_shortcuts_3ds.h",
+      "source_component": "src/ww_ui_shortcuts_3ds.h",
       "source_sha256": "442e0ab46294efe500df151ef1dcfed95e7e38477fa425b7e811cd0d7a796ceb",
       "publication_changes": "none",
       "published_sha256": "442e0ab46294efe500df151ef1dcfed95e7e38477fa425b7e811cd0d7a796ceb"
     },
     {
-      "path": "system/new3ds/ui_shortcuts_api_3ds.h",
-      "source_component": "src/ui_shortcuts_api_3ds.h",
+      "path": "system/new3ds/ww_ui_shortcuts_api_3ds.h",
+      "source_component": "src/ww_ui_shortcuts_api_3ds.h",
       "source_sha256": "96c549ae006465612ec4bd436ce827c11da11b2aa015b3e54c05823dbe33f813",
       "publication_changes": "none",
       "published_sha256": "96c549ae006465612ec4bd436ce827c11da11b2aa015b3e54c05823dbe33f813"
     },
     {
-      "path": "system/new3ds/ui_shortcut_config_3ds.h",
-      "source_component": "src/ui_shortcut_config_3ds.h",
+      "path": "system/new3ds/ww_ui_shortcut_config_3ds.h",
+      "source_component": "src/ww_ui_shortcut_config_3ds.h",
       "source_sha256": "9c6efc75e9a02cbc49c652ca6398544495d7c9b0a7c3277ea4c22d89d902c5d1",
       "publication_changes": "none",
       "published_sha256": "9c6efc75e9a02cbc49c652ca6398544495d7c9b0a7c3277ea4c22d89d902c5d1"

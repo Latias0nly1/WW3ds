@@ -7,7 +7,7 @@ import shutil
 import subprocess
 import sys
 ROOT=Path(__file__).resolve().parent
-SOURCES=['texconv.cpp','texfit.cpp','texmap.cpp','texpack.cpp','texture_support.cpp']
+SOURCES=['ww_texconv.cpp','ww_texfit.cpp','ww_texmap.cpp','ww_texpack.cpp','texture_support.cpp']
 def build(output=None,cxx=None):
     if sys.byteorder!='little':raise RuntimeError('The current pack format requires a little-endian host.')
     compiler=cxx or os.environ.get('CXX') or shutil.which('c++') or shutil.which('g++') or shutil.which('clang++')

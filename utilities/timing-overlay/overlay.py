@@ -11,7 +11,7 @@ import shutil
 import subprocess
 import tempfile
 
-FRAME = re.compile(r'^\[frame\] (\d+) .*? present ([\d.]+) tick (\d+)\b')
+FRAME = re.compile(r'^ww3ds \[frame\] (\d+) .*? present ([\d.]+) tick (\d+)\b')
 TICK_HZ = 268123480
 
 

@@ -15,7 +15,7 @@ class OverlayTests(unittest.TestCase):
     def test_log_and_no_overwrite(self):
         with tempfile.TemporaryDirectory() as d:
             p=Path(d)/'log';out=Path(d)/'out.csv'
-            p.write_text('[frame] 1 draws 5 present 20.0 tick 100\n[frame] 2 draws 5 present 40.0 tick 268123580\n')
+            p.write_text('ww3ds [frame] 1 draws 5 present 20.0 tick 100\nww3ds [frame] 2 draws 5 present 40.0 tick 268123580\n[frame] 9 draws 5 present 10.0 tick 300\n')
             self.assertEqual(export_log(p,out),2)
             self.assertEqual(read_timings(out),[(0,20),(1,40)])
             with self.assertRaises(FileExistsError):export_log(p,out)
@@ -23,7 +23,7 @@ class OverlayTests(unittest.TestCase):
             with self.assertRaises(ValueError):export_log(p,Path(d)/'bad.csv')
     def test_discontinuous_log(self):
         with tempfile.TemporaryDirectory() as d:
-            p=Path(d)/'log';p.write_text('[frame] 1 draws 5 present 20.0 tick 100\n[frame] 3 draws 5 present 40.0 tick 200\n')
+            p=Path(d)/'log';p.write_text('ww3ds [frame] 1 draws 5 present 20.0 tick 100\nww3ds [frame] 3 draws 5 present 40.0 tick 200\n')
             with self.assertRaises(ValueError):export_log(p,Path(d)/'out.csv')
     def test_metric_and_stale_values(self):
         text=make_ass([(0,20),(.1,40)],800,480,2,'unit fixture','virtual')
