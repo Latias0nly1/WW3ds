@@ -55,11 +55,6 @@ The aim is a steady 30 frames per second. Most places land around 15–25. Heavy
 
 The bottom screen shows the X, Y and Z items, a Map button, a compass, and frame-rate caps of 24, 30 and 60. An empty item slot stays blank. START opens the game's pause menu. There is no Menu button on the touch screen.
 
-## Updates
-
-You can subscribe to my Youtube channel for updates
-https://www.youtube.com/@VortexForgeGames
-
 ## Credits
 
 - [zeldaret/tww](https://github.com/zeldaret/tww)
