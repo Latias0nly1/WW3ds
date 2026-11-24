@@ -24,7 +24,7 @@ Unzip onto the SD card. Install `cia/ww3ds.cia` with FBI. Put your own GZLE01.is
 2. On the SD card, put the ISO here:
 
    ```text
-   3ds/ww3ds/game/GZLE01.iso
+   3ds/ww3ds/GZLE01.iso
    ```
 
 3. Start **ww3ds** from the HOME Menu.
